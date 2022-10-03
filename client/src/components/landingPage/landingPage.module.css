@@ -1,0 +1,132 @@
+.backContainer {
+    display: flex;
+    height: 95vh;
+    justify-content: space-evenly;
+    padding: 3rem 3rem 1rem 3rem;
+
+    /* background-image: url('../../img/landing.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* height: 94vh;
+    padding: 57px; */
+}
+
+.principalContainer {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.acomodarText {
+    margin-right: 500px;
+    margin-top: 100px;
+    
+
+}
+
+
+.welcome {
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Monoton', cursive; */
+
+    color: #000;
+    font-size: 4em;
+    padding-right: 150px;
+
+}
+
+.welcome2 {
+    font-family: 'Monoton', cursive;
+    color: #000;
+    font-size: 4em;
+    padding-right: 150px;
+
+
+
+}
+
+.acomodarImg {
+    position: relative;
+    margin-top: 40px;
+}
+
+.imgComida1 {
+
+
+    background-image: url('../../img/comida1.jpg');
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+
+    border-radius: 5%;
+    position: absolute;
+
+
+
+    right: 25px;
+    top: 25px;
+    z-index: 1;
+}
+
+.imgComida2 {
+
+    background-image: url('../../img/comida2.jpeg');
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+    position: absolute;
+    right: 50px;
+    top: 210px;
+    z-index: 3;
+
+}
+
+.imgComida3 {
+    background-image: url('../../img/comida3.jpg');
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+    border-radius: 5%;
+    position: absolute;
+    /* background-repeat: no-repeat; */
+
+    right: 300px;
+    top: 120px;
+    z-index: 2;
+
+}
+
+.acomodarboton{
+    margin-right: 650px;
+    margin-top: 20px;
+}
+
+.boton {
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Monoton', cursive; */
+    font-weight: 500;
+    background-color: #455073;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 10vw;
+    height: 6vh;
+}
+
+.boton:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}

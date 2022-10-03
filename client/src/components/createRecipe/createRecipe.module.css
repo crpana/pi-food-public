@@ -1,0 +1,128 @@
+.formContainer {
+
+    display: flex;
+    /* background-color: aqua; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.formMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #951b1b; */
+    min-height: 100vh;
+
+}
+
+.formContainerLeft {
+    /* background-color: rgb(19, 97, 165); */
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+}
+
+.formContainerLeft input {
+    padding: 0 0.5rem;
+    height: 6vh;
+    width: 20vw;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+    background-color: rgb(255, 255, 255);
+
+    /* margin-top: 1rem; */
+
+}
+
+.formContainerLeft textarea {
+    padding: 0 0.5rem;
+    height: 6vh;
+    width: 20vw;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+    margin-top: 1rem;
+
+    /* background-color: blue; */
+
+}
+
+.formContainerRight {
+    display: flex;
+    flex-direction: column;
+    margin:  5rem;
+}
+
+.formDietas {
+    display: flex;
+    flex-direction: column;
+}
+
+.formDietas label {
+    margin: 0.3rem;
+}
+
+.formButton {
+    display: flex;
+    justify-content: center;
+    /* top: 2rem; */
+    margin-top: 30px;
+
+}
+
+
+.bottonCreate {
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-weight: 500; */
+    /* font-family: 'Monoton', cursive; */
+    font-weight: 500;
+    background-color: #455073;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 8vw;
+    height: 7vh;
+    margin-left: 3rem;
+
+}
+.bottonCreate2 {
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-weight: 500; */
+    /* font-family: 'Monoton', cursive; */
+    font-weight: 500;
+    background-color: #455073;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 8vw;
+    height: 7vh;
+    margin-left: 3rem;
+
+}
+.bottonCreate:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.bottonReset {
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Monoton', cursive; */
+    font-weight: 500;
+    background-color: #455073;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 8vw;
+    height: 7vh;
+
+}
+
+.bottonReset:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}

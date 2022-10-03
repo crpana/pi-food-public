@@ -1,0 +1,75 @@
+.mainContainer{
+    background-color: #ebebeb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contitle{
+    /* font-family: 'Rubik'; */
+	font-size: 3rem;
+	color: #000000;
+	margin: 0.5rem 0;
+}
+
+.detailContainer{
+    display: flex;
+	padding: 0 2rem;
+}
+
+.leftContainer{
+
+	margin: 0 2rem;
+
+}
+.leftContainer img{
+	max-width:  40vw;
+	margin-top: 1.5rem;
+	box-shadow: rgb(0 0 0 / 25%) 0px 12px 8px, rgb(0 0 0 / 12%) 0px -12px 30px,
+		rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+		rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+
+.rightContainer{
+    margin: 0 2rem;
+
+}
+.summaryDetalles{
+    font-family: 'Poppins';
+	text-align: justify;
+}
+
+
+.stepsDetalles{
+    font-family: 'Poppins';
+	text-align: justify;
+}
+
+.detailHealth{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.detailHealth h1{
+	font-family: 'Poppins';
+	color: #2ec4b6;
+
+}
+
+.boton{
+	   /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Monoton', cursive; */
+    font-weight: 500;
+    background-color: #455073;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 11vw;
+    height: 7vh;
+}
+.boton:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}

@@ -1,0 +1,41 @@
+
+.nav{
+    background-color: #6077c0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 8vh;
+	
+}
+.navLeft{
+    margin-left: 3rem;
+	font-size: 2rem;
+}
+.navLeft a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navRight{
+    margin-right: 3rem;
+
+}
+
+.List{
+    list-style-type: none;
+    display: flex;
+
+}
+.navListItems a{
+    font-family: 'Rubik', sans-serif;
+	color: #fff;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 1rem;
+
+}
+a:hover {
+	color: #455073;
+}

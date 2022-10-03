@@ -1,0 +1,41 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: 75vh;
+    /* border: 0.3rem solid #c0904d; */
+    border:  0.3rem solid #455073 ;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color:#e0e4f0;
+}
+
+.imgRecipe{
+        margin-top: 10px;
+        width: 25vw;
+    
+}
+
+.tituloCon{
+	font-family: 'Rubik';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cardInfo{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+
+.dietasCont{
+	font-family: 'Poppins';
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+}

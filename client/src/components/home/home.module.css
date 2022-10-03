@@ -1,0 +1,22 @@
+.filterSort{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #6077c0; */
+    height: 10vh;
+
+    
+}
+.fondo{
+    background-color: #ebebeb;
+}
+
+
+/* .recipesHome{
+    background-color: #dd1717;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+} */

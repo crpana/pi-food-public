@@ -1,0 +1,27 @@
+.conteiner{
+    display: flex;
+ 
+}
+.conteiner input{
+    margin-right: 15px;
+    
+}
+
+.boton {
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Monoton', cursive; */
+    font-weight: 500;
+    background-color: #455073;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 100px;
+    height: 35px;
+}
+
+.boton:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
